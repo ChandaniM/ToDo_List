@@ -32,15 +32,15 @@ function Addcomponent(){
 	const completeTask=(e,index)=>{
 		let input=[...componentArray];
 		let saveitem=input[index];
-
 		saveitem["checked"]=!saveitem["checked"];
 		// console.log(componentArray[index].checked)
 		addComponent(componentArray=>[...input]);
-		if(componentArray[index].checked){
-			taskRef.current.style.textDecoration="line-through";
-		}else{
-			taskRef.current.style.textDecoration="none";
-		}
+		// console.log(componentArray[index].checked)
+		// if(componentArray[index].checked){
+		// 		taskRef.current.style.textDecoration="line-through";
+		// }else{
+		// 	taskRef.current.style.textDecoration="none";
+		// }
 	}
 	//
 	return(
@@ -60,7 +60,7 @@ function Addcomponent(){
 						<div className="Outputcontainer" key={element.id}>
 							<div className="out_box">
 								<input type="checkbox"  onClick={(event)=>completeTask(event,index)}/>
-								<span className="textinput" ref={taskRef}>{element.task}</span>
+								<span className="textinput" style={{ textDecoration: element.checked ? "line-through" : "" }} ref={taskRef}>{element.task}</span>
 							</div>
 								<button className="Cancelbutton" onClick={()=>deleteTask(index)}>Cancel</button>
 							
