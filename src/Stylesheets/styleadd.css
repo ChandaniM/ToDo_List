@@ -1,0 +1,67 @@
+h2{
+	/*border: 1px solid green;*/
+	padding: 1.5em;
+	text-align: center;
+	color: #fff;
+	text-decoration: underline;
+	 text-decoration-style: double;
+	
+}
+.input_container{
+	width: 80%;
+	display: flex;
+	padding-bottom:3em;
+	/*border: 1px solid skyblue;*/
+	margin: 0 auto;
+}
+.input_search{
+	width:75%;
+	color: #fff;
+	font-size: 1.5em;
+	border: none;
+	outline: none;
+	/*padding-left: 1em;*/
+	background-color: transparent;
+	border-bottom: 0.2em solid #fff;
+}
+.add{
+	width:5em;
+	padding: 0.5em;
+	color: #fff;
+	font-size: 1.2em;
+	margin-left: 1.5em;
+	background-color:#059862 ;
+	outline: none;
+	border: none;
+}
+
+
+.out_box{
+	width: 70%;
+	margin-left: 2em;
+	font-size: 1.5em;
+	/*border: 1px solid green;*/
+
+}
+.output_Container_big{
+	margin: 0 auto;
+	border: 1px solid green;
+}
+.Outputcontainer{
+	width:75%;
+	padding:1em;
+	margin:1.5em auto;
+	background-color: #868686;
+	border-radius:0.4em;
+	display: flex;
+}
+
+.Cancelbutton{
+	width: 5em;
+	padding:0.5em;
+	color: #fff;
+	font-size: 1.2em;
+	background-color: #059862;
+	outline: none;
+	border: none;
+}
