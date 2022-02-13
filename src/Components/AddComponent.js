@@ -46,7 +46,7 @@ function Addcomponent(){
 	return(
 			<div>
 				<div className="search_container">
-					<h2>ToDo List</h2>
+					<h2 className="title_name">ToDo List</h2>
 					<div className="input_container">
 						<input type="text" value={text} placeholder="Enter Text" className="input_search" onInput={(e)=>settext(e.target.value)}></input>
 					{/*<button className="add" onClick={addInput}>Add</button>*/}

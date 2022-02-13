@@ -3,6 +3,9 @@
 	min-height:50vh;
 	margin: 0 auto;
 	margin-top: 2em;
-	background-color: #3c424a;
-	border: 1px solid green;
+	padding-bottom: 1em;
+	/*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+	/*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+	background-color:#000061;
+	/*border: 1px solid green;*/
 	}

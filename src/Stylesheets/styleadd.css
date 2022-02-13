@@ -1,10 +1,13 @@
-h2{
+
+.title_name{
 	/*border: 1px solid green;*/
 	padding: 1.5em;
 	text-align: center;
 	color: #fff;
+	font-size:2em;
 	text-decoration: underline;
 	 text-decoration-style: double;
+	font-family: 'Merriweather', serif;
 	
 }
 .input_container{
@@ -20,9 +23,17 @@ h2{
 	font-size: 1.5em;
 	border: none;
 	outline: none;
+	font-family: 'Merriweather', serif;
+
 	/*padding-left: 1em;*/
 	background-color: transparent;
 	border-bottom: 0.2em solid #fff;
+}
+.textinput{
+	margin-left: 1em;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+
 }
 .add{
 	width:5em;
@@ -30,9 +41,11 @@ h2{
 	color: #fff;
 	font-size: 1.2em;
 	margin-left: 1.5em;
-	background-color:#059862 ;
+	background-color:#28a745 ;
 	outline: none;
 	border: none;
+	font-family: 'Merriweather', serif;
+
 }
 
 
@@ -51,7 +64,7 @@ h2{
 	width:75%;
 	padding:1em;
 	margin:1.5em auto;
-	background-color: #868686;
+	background-color:#5252a9;
 	border-radius:0.4em;
 	display: flex;
 }
@@ -61,7 +74,9 @@ h2{
 	padding:0.5em;
 	color: #fff;
 	font-size: 1.2em;
-	background-color: #059862;
+	background-color: #28a745	;
 	outline: none;
 	border: none;
+	font-family: 'Merriweather', serif;
+	
 }
